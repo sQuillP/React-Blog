@@ -1,0 +1,59 @@
+.comment-author{
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+    
+}
+
+.comment-author p{
+    margin: 10px 0 0 0;
+}
+.comment{
+    line-height: 1.8rem;
+    text-align: left;
+    width: 100%;
+}
+.comment p{
+    margin: 0;
+}
+
+.comment-remarks p{
+    margin: 0;
+    /* font-size: .8em; */
+}
+
+.comment-remarks{
+    text-align: right;
+    width: 100%;
+    margin-top: 5px;;
+    margin-right: 50px;
+}
+
+.comment-remarks p{
+    margin-left: 0px;
+}
+
+.comment-remarks span{
+    margin: 0 10px
+}
+.comment-remarks i{
+    color: gray;
+}
+
+.comment-remarks i:hover{
+    color: black;
+}
+
+.exit-btn-wrapper{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    border-radius: 100%;
+    padding: 5px 8px;
+}
+
+.exit-btn-wrapper:hover{
+    background: lightgray;
+    color: rgb(175, 76, 76);
+}
+

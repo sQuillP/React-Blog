@@ -1,0 +1,27 @@
+.socialBar-container{
+    display: flex;
+    color: black;
+}
+
+.socialBar-wrapper{
+    position: relative;
+    
+}
+
+.icon-wrapper{
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: center;;
+    margin: 10px 0;
+    border-radius: 50%;
+}
+
+.icon-wrapper:hover{
+    background-color: lightgray;
+}
+
+.facebook{color: #4267b2;}
+.twitter{color: rgb(8,160,233);}
+.instagram{color: black;}
+.heart{color:rgb(194, 58, 58)}

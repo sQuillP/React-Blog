@@ -1,0 +1,56 @@
+html{
+    padding: 0;
+}
+.cb-container{
+    
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.cb-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.cb-title{
+    text-align: center;
+}
+
+.cb-info, .cb-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.cb-field input, .cb-field button{
+    padding: 5px;
+}
+
+.cb-field button{
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    transition: background 100ms linear;
+}
+
+.cb-field button:hover{
+    background-color: lightgray;
+}
+
+.cb-field textarea{
+    resize: none;
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.cb-field{
+    margin: 10px 0;
+}
